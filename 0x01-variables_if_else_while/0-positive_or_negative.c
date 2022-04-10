@@ -3,7 +3,7 @@
 #include <stdio.h>
 /**
  * main - Entry point 
- * positive or negative task
+ *
  * Return: 0 after excuting code
  */
 int main(void)
@@ -17,7 +17,10 @@ int main(void)
 	else if (n == 0)
 		printf("%d is zero\n", n);
 	else
+
 		printf("%d is negative\n", n);
-	
+
+
 	return (0);
+	
 }
