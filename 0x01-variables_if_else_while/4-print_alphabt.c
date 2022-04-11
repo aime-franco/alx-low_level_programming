@@ -1,9 +1,15 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
+/**
+ * main - Entry point
+ *
+ * Return: 0 after excuting code
+ */
 int main(void)
 {
 	char low, e, q;
+	
 	e = 'e';
 	q = 'q';
 
