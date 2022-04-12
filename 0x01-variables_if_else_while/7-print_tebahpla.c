@@ -6,13 +6,13 @@
  *
  * Reuturn: 0 after excuting
  */
-int main (0)
+int main(void)
 {
 	char alpha;
 
 	for(alpha = 'a'; alpha <= 'z'; alpha++)
 		strrev(alpha);
 		putchar(alpha);
-	putchar('\');
+	putchar('\n');
 	return (0);
 }
