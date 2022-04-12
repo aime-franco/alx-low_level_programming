@@ -6,7 +6,7 @@
  *
  * Return: 0 after excuting code
  */
-int main()
+int main(void)
 {
 	int num;
 	char letter;
