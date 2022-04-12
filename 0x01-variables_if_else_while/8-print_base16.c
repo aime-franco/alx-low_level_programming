@@ -11,7 +11,7 @@ int main()
 	int num;
 
 	for (num = 'a'; num <= 'f'; num++)
-		puchar(num);
-	puchar('\n');
+		putchar(num);
+	putchar('\n');
 	return (0);
 }
