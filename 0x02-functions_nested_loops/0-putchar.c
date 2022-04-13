@@ -4,7 +4,7 @@
  *
  * Return: 0 after code excution
  */
-int main(void)
+int _putchar(void)
 {
 	write("_putchar\n");
 	return (0);
