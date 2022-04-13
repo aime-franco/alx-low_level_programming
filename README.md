@@ -1,1 +1,1 @@
-task about functions and nested loops in c programming
+task about the c programming in alx SE
