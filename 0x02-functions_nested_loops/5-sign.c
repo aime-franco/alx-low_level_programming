@@ -4,7 +4,7 @@
  * @c: contains the compared value
  * Return: 0 success after code excution
  */
-int print_sign(int c)
+int print_sign(int n)
 {
 	if (n > 0)
 	{
