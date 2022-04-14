@@ -4,7 +4,7 @@
  *
  * Return: 0 after code excution
  */
-oid print_alphabet_x10(void)
+void print_alphabet_x10(void)
 {
 	int alpha;
 	int count;
