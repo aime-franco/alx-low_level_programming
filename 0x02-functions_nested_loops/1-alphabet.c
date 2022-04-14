@@ -1,8 +1,8 @@
-#include <stdio.h>
+#include "main.h"
 /**
- * void print_alphabet  - print the alphabet
+ * print_alphabet - Print alphabet in lowercase
  *
- * Return: 0 after code excution
+ * Return: 0 after excuting code
  */
 void print_alphabet(void)
 {
@@ -11,5 +11,4 @@ void print_alphabet(void)
 	for (alp = 'a'; alp <= 'z'; alp++)
 		_putchar(alp);
 	_putchar('\n');
-	return (0);
 }
