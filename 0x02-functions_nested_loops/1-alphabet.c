@@ -1,4 +1,6 @@
 #include <main.h>
+#include <_putchar.h>
+#include <stdio.h>
 /**
  * void print_alphabet  - print the alphabet
  *
