@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_sign - print the sign of the number
- * @c: contains the compared value
+ * @n: contains the compared value
  * Return: 0 success after code excution
  */
 int print_sign(int n)
