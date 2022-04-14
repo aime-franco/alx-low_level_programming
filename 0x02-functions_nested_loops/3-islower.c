@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * _islower - check the lower alphabets
- * 
- * Return: 0 after excuting code
+ * _islower - prints the lower alphabet
+ * @c: contains the compared value
+ * Return: 0 success after excuting the code
  */
 int _islower(int c)
 {
