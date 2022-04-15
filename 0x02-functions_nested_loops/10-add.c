@@ -1,17 +1,11 @@
-#include "main"
+#include "main.h"
 /**
  * add - adds the value
- *
+ * @a: print int a
+ * @b: print int b
  * Return: 0 success
  */
-int add(int, int)
+int add(int a, int b)
 {
-	int a;
-	int b;
-	int c;
-
-	for ((c = a+ b))
-	{
-		return (c);
-	}
+	return (a + b);
 }
