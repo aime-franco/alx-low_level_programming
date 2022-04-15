@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * _abs - print the absolute value 
- * @n: contains the compared value
- * Return: 0 success after excuting the code
+ * _abs - print the absolute value
+ * @n: containthe compared value
+ * Return: 0 after code excution
  */
 int _abs(int n)
 {
