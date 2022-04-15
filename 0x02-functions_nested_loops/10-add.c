@@ -4,14 +4,7 @@
  *
  * Return: 0 success
  */
-int add(int, int)
+int add(int a, int b)
 {
-	int a;
-	int b;
-	int c;
-
-	for ((c = a+ b))
-	{
-		return (c);
-	}
+	return (a + b);
 }
