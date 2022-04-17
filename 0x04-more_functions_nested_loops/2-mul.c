@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
 * mul - multiply the values
 * @a: contains the value for a
