@@ -1,4 +1,5 @@
 #include "main.h"
+<<<<<<< HEAD
 /**
  * _isdigit - print digit from 0 to 9
  * @c: contains compared value
@@ -14,4 +15,16 @@ int _isdigit(int c)
 	{
 		return (0);
 	}
+=======
+
+/**
+* mul - multiply the values
+* @a: contains value of a
+* @b: contains value of b
+* Return: 0 success
+*/
+int mul(int a, int b)
+{
+     return (a * b);
+>>>>>>> c5d25f27090b85c8a95d2f4b207c98eda5bbc295
 }
