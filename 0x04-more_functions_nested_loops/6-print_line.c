@@ -2,7 +2,7 @@
 
 /**
 * print_line - print lines
-* 
+* @n: contains the compared value
 * Return: 0 success
 */
 void print_line(int n)
