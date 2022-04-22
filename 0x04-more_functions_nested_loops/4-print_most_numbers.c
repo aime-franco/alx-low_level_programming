@@ -2,6 +2,8 @@
 
 /**
  * prin_most_numbers - print numbers except 2 and 4
+ *
+ * Return: 0 success
  */
 void print_most_numbers(void)
 {
