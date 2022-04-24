@@ -2,14 +2,18 @@
 
 /**
  * print_triangle - print the triangle shape
- * @size: contains the compared value
- * Return: 0  success
+ * @size: contains compared value
+ * Return: 0 success
  */
-void print_triangle(int size)
+void print_traingle(int size)
 {
 	int a, b;
-	
+
 	if (size <= 0)
+	{
+		_putchar('\n');
+	}
+	else
 	{
 		for (a = 1; a <= size; a++)
 		{
@@ -24,5 +28,4 @@ void print_triangle(int size)
 			_putchar('\n');
 		}
 	}
-
 }
