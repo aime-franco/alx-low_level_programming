@@ -7,14 +7,14 @@
  */
 void print_traingle(int size)
 {
-	int a, b;
-
 	if (size <= 0)
 	{
 		_putchar('\n');
 	}
 	else
 	{
+		int a, b;
+		
 		for (a = 1; a <= size; a++)
 		{
 			for (b = a; b < size; b++)
