@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * print_triangle - print the triangle shape
  * @size: contains compared value
