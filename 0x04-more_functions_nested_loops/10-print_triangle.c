@@ -5,7 +5,7 @@
  * @size: contains compared value
  * Return: 0 success
  */
-void print_traingle(int size)
+void print_triangle(int size)
 {
 	if (size <= 0)
 	{
