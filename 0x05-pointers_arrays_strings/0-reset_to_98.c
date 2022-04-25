@@ -3,7 +3,7 @@
 
 /**
  * reset_to_98 - update the value by pointer
- * @*n: contains compared value
+ * @n: contains compared value
  * Return: nothing
  */
 void reset_to_98(int *n)
