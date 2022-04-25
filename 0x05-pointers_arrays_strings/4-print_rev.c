@@ -1,16 +1,14 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * print_rev - print the reversed string
+ * print_rev - print the string in reverse
  * @s: contains the compared value
- * Return: nothing
  */
 void print_rev(char *s)
 {
 	int x;
 	int length = 0;
-	
+
 	for (length = 0; s[length] != '\0'; length++)
 	{
 	}
