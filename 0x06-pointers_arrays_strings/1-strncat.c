@@ -1,11 +1,11 @@
-#include "main.h"
+nclude "main.h"
 
 /**
- * _strncat - concantenates the two strings
- * @dest: contains compared value
- * @src: contains compared value from source
- * @n: contans compared value
- * Return: string 
+ * _strncat - concantinate two strings
+ * @dest: contains value of first string
+ * @src: contains value of second string
+ * @n: the number of bytes space
+ * Return: string
  */
 char *_strncat(char *dest, char *src, int n)
 {
@@ -21,7 +21,7 @@ char *_strncat(char *dest, char *src, int n)
 	}
 	if (n > 0)
 	{
-		dest[x] = '\0';
+		dest[x] != '\0';
 	}
 	return (dest);
 }
