@@ -3,7 +3,7 @@
 /**
  * _strcmp - compare two strings
  * @s1: contains string of s1
- * @ds2: contains string of s2
+ * @s2: contains string of s2
  * Return: 0 success
  */
 int _strcmp(char *s1, char *s2)
