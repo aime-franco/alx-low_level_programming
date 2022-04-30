@@ -1,14 +1,14 @@
 #include "main.h"
 
 /**
- * string_toupper - converts string into upper case
- * @s: cinttains a string
+ * string_toupper - change to upper case
+ * @s: contains string
  * Return: string
  */
 char *string_toupper(char *s)
 {
 	int x = 0;
-	
+
 	while (s[x] != '\0')
 	{
 		if (s[x] > 96 && s[x] < 123)
