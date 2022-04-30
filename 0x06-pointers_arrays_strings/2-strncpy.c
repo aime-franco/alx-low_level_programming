@@ -2,31 +2,22 @@
 
 /**
  * _strncpy - copies src into dest
- * @dest: contains dest string
- * @src: contains src string
- * @n: number of byte from source
+ * @dest: string for dest
+ * @src: string for source
+ * @n: number of byte from src
  * Return: string
  */
 char *_strncpy(char *dest, char *src, int n)
 {
-	int x = 0, y = 0;
+	int x;
 
-	while (n > y)
+	for (x = 0; x < n && src[x] != '\0'; x++)
 	{
-		if (src[y] == '\0')
-		{
-			for (y  < n; y++)
-			{
-				dest[x] != '\0';
-				x++;
-			}
-		}
-		else
-		{
-			dest[x] = src[y];;
-			x++;
-			y++;
-		}
+		dest[x] = src[x];
 	}
-	return dest;
+	for (; n > x; x++)
+	{
+		dest[x] = '\0';
+	}
+	return (dest);
 }
