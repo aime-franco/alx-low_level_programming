@@ -2,19 +2,19 @@
 
 /**
  * string_toupper - converts string into upper case
- * @str: cinttains a string
+ * @s: cinttains a string
  * Return: string
  */
-char *string_toupper(char *str)
+char *string_toupper(char *s)
 {
 	int x;
 
 	x = 0;
 	while (str[x] != '\0')
 	{
-		if (str[x] > 96 && str[x] < 123)
+		if (s[x] > 96 && s[x] < 123)
 		{
-			str[x] -= 32;
+			s[x] -= 32;
 		}
 		x++;
 	}
