@@ -1,4 +1,13 @@
-	int i = 1, j, check;
+#include "main.h"
+
+/**
+ * cap_string - capitalizes the string
+ * @s: contains the string
+ * Return: string
+ */
+char *cap_string(char *)
+{
+int i = 1, j, check;
 char a[] = {',', ';', '.', '!', '?', '"', '(', ')', '{', '}', '\n', '\t', ' '};
 
 	if (s[0] > 96 && s[0] < 123)
