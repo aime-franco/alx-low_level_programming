@@ -6,7 +6,6 @@
  *
  *Return: string.
  */
-
 char *cap_string(char *s)
 {
 	int i = 1, j, check;
@@ -14,7 +13,6 @@ char *cap_string(char *s)
 
 	if (s[0] > 96 && s[0] < 123)
 		s[0] -= 32;
-
 	while (s[i] != '\0')
 	{
 		if (s[i] > 96 && s[i] < 123)
