@@ -5,7 +5,7 @@
  * @s: contains the string
  * Return: string
  */
-char *cap_string(char *)
+char *cap_string(char *s)
 {
 	int i = 1, j, check;
 	char a[] = {',', ';', '.', '!', '?', '"', '(', ')', '{', '}', '\n', '\t', ' '};
