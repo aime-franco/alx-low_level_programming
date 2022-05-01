@@ -7,7 +7,7 @@
  */
 char *cap_string(char *)
 {
-int i = 1, j, check;
+	int i = 1, j, check;
 char a[] = {',', ';', '.', '!', '?', '"', '(', ')', '{', '}', '\n', '\t', ' '};
 
 	if (s[0] > 96 && s[0] < 123)
