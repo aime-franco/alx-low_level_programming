@@ -1,37 +1,37 @@
 #include "main.h"
 
 /**
- * cap_string - capitalizes the string
+ * cap_string - capitalise the string
  * @s: contains the string
  * Return: string
  */
-char *cap_string(char *s)
+char *cap_string(char *)
 {
-	int i = 1, j, check;
-	char a[] = {',', ';', '.', '!', '?', '"', '(', ')', '{', '}', '\n', '\t', ' '};
+	int x = 1, y, check;
+char a[] = {',', ';', '.', '!', '?' '"', '(', ')', '{', '}', '\n', '\t',' '};
 
 	if (s[0] > 96 && s[0] < 123)
 		s[0] -= 32;
-	while (s[i] != '\0')
+	while (s[x] != '\0')
 	{
-		if (s[i] > 96 && s[i] < 123)
+		if (s[x] > 96 && s[x] < 123)
 		{
-			j = 0;
+			y = 0;
 			check = 0;
-			while (check == 0 && j < 13)
+			while (check == 0 && y < 13)
 			{
-				if (s[i - 1] == a[j])
+				if (s[x - 1] == a[y])
 				{
 					check = 1;
 				}
-				j++;
+				y++;
 			}
 			if (check == 1)
 			{
-				s[i] -= 32;
+				s[x] -= 32;
 			}
 		}
-		i++;
+		x++;
 	}
 return (s);
 }
