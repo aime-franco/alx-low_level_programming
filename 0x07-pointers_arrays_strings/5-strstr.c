@@ -9,16 +9,21 @@ include "main.h"
 
 char *_strstr(char *haystack, char *needle)
 {
-	int x;
+	int x = 0, y;
 
-	while (*haystack != '\0')
+	while (s[x])
 	{
-		x = 0;
-		while (*haystack == *needle && *haystack != '\0' && *needle != '\0')
-			haystack++, needle++, x++;
-		if (*needle == '\0')
-			return (haystack - x);
-		haystack -= (x - 1), needle -= x;
+		y = 0;
+		while (accept[y])
+		{
+			if (s[x] == accept[b])
+			{
+				s += x;
+				return (s);
+			}
+			y++;
+		}
+		x++;
 	}
 	return ('\0');
 }
