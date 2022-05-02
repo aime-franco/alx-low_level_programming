@@ -1,14 +1,15 @@
 #include "main.h"
 
 /**
- * _strpbrk - search string
- * @s: contains string
- * @accept: contains compared value
- * Return: string
+ * _strpbrk - finds first matching char in string
+ * @s: input string to search for matching char
+ * @accept: characters that could be matched
+ * Return: pointer to matching char
  */
+
 char *_strpbrk(char *s, char *accept)
 {
-  unsigned int i, j;
+	unsigned int i, j;
 
 	for (i = 0; s[i] != '\0'; i++)
 		for (j = 0; accept[j] != '\0'; j++)
