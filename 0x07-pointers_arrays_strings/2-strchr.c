@@ -16,9 +16,9 @@
 	}
 	for (y = 0, y <= x, y++)
 	{
-		if (x == s[b])
+		if (c == s[y])
 		{
-			s += b;
+			s += y;
 			return (s);
 		}
 	}
