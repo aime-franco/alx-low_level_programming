@@ -12,7 +12,7 @@ int prim(int x, int y)
 	{
 		return (1);
 	}
-	else if (x % y)
+	else if (x % y == 0)
 	{
 		return (0);
 	}
