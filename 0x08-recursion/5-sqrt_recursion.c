@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * sqrt - calculate the square root of a number
+ * sqrt1 - calculate the square root of a number
  * @x: contains value for x
  * @y: contians value for y
  * Return: 0 success
  */
-int sqrt(int x, int y)
+int sqrt1(int x, int y)
 {
 	if (y * y == x)
 	{
@@ -16,7 +16,7 @@ int sqrt(int x, int y)
 	{
 		return (-1);
 	}
-	return (sqrt(x, (y + 1)))
+	return (sqrt1(x, (y + 1)));
 }
 /**
  * _sqrt_recursion - return squareroot of a number
@@ -25,5 +25,5 @@ int sqrt(int x, int y)
  */
 int _sqrt_recursion(int n)
 {
-	return (sqrt(n, 1));
+	return (sqrt1(n, 1));
 }
