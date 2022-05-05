@@ -12,11 +12,11 @@ int prim(int x, int y)
 	{
 		return (1);
 	}
-	else if (x % b)
+	else if (x % y)
 	{
 		return (0);
 	}
-	return (prim(x, (y + 1));
+	return (prim(x, (y + 1)));
 }
 /**
  * is_prime_number - return the prime numbers
