@@ -20,5 +20,9 @@ int main(int argc, char *argv[])
 		}
 		printf("%d\n", mul);
 	}
+	else
+	{
+		printf("error\n");
+	}
 	return (0);
 }
