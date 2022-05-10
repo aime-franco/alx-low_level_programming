@@ -3,26 +3,25 @@
 
 /**
  * main - Entry point
- * @argc: counts number of parameter passed in main
- * @argv: contains the array of argc
- * Return: 0 success
+ *
+ * @argc: Counts the number of parameters that go into main
+ * @argv: Pointer of array of pointers containing strings entering main
+ * Return: Always 0 (Success)
  */
-int main(int argc, char *argv[])
+int main(int argc, char **argv)
 {
-	int x, mul = 1;
+	int n, ex;
 
-	if (argc > 1)
+	ex = 0;
+	if (argc != 3)
 	{
-		for (x = 1; x < argc; x++)
-		{
-			printf("%s\n", argv[x]);
-			mul *= atoi(argv[x]);
-		}
-		printf("%d\n", mul);
+		printf("%s\n", "Error");
+		ex = 1;
 	}
 	else
 	{
-		printf("Error\n");
+		n = atoi(argv[1]) * atoi(argv[2]);
+		printf("%i\n", n);
 	}
-	return (0);
+	return (ex);
 }
