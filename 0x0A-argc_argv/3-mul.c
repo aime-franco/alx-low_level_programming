@@ -1,5 +1,3 @@
-
-<<<<<<< HEAD
 /**
  * main - Entry point
  * @argc: counts number of parameter passed in main
@@ -26,5 +24,3 @@ int main(int argc, char *argv[])
 	}
 	return (0);
 }
-=======
->>>>>>> c910f06126d6a1060dd77cff99d36c23fa369b70
