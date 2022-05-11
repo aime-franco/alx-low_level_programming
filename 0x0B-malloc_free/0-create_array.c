@@ -24,8 +24,8 @@ char *create_array(unsigned int size, char c)
 	}
 	for (x = 0; x < size; x++)
 	{
-		*(a + 1) = c;
+		*(a + x) = c;
 	}
-	*(a + 1) = '\0';
+	*(a + x) = '\0';
 	return (a);
 }
