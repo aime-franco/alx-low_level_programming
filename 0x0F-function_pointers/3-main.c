@@ -1,13 +1,14 @@
 #include "3-calc.h"
-#include <stdio.h>
 #include <stdlib.h>
+#include <stdio.h>
 
 /**
- * main - Entry point
- * @argv: argument array
+ * main - main function
  * @argc: argument count
- * Return: 0 successs
+ * @argv: string of arguments in array
+ * Return: 0
  */
+
 int main(int argc, char *argv[])
 {
 	int a, b;
