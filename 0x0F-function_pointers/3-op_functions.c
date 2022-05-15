@@ -60,3 +60,4 @@ int op_mod(int a, int b)
 		exit(100);
 	}
 	return (a % b);
+}
