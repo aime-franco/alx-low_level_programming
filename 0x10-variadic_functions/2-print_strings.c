@@ -8,7 +8,6 @@
  * @separator: string to be printed between strings
  * @n: number of strings passed to function
  */
-
 void print_strings(const char *separator, const unsigned int n, ...)
 {
 	unsigned int x;
@@ -27,6 +26,5 @@ void print_strings(const char *separator, const unsigned int n, ...)
 			printf("%s", separator);
 	}
 	printf("\n");
-
 	va_end(list);
 }
