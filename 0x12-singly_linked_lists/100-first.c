@@ -1,10 +1,10 @@
 #include <stdio.h>
-
+void myStartupFun(void)__attribute__((constructor));
 /**
- * bmain - function runs before main
+ * myStartupFun - function runs before main
  * Return: nothing
  */
-void __atribute__((constructor)) bmain()
+void myStartupFun(void)
 {
 	printf("You're beat! and yet, you must allow");
 	printf(",\nI bore my house upon my back!\n");
