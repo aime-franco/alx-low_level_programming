@@ -1,1 +1,1 @@
-task about the c programming in alx SE
+the more about the single linked list in c programming
