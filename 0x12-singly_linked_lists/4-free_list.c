@@ -9,15 +9,10 @@ void free_list(list_t *head)
 {
 	list_t *old;
 
-	if (head == NULL)
-		return;
-	while (head->next != NULL)
+	while ((current = head) != NULL)
 	{
-		old = head->next;
-		free(head->next);
-		free(head);
-		head = old;
+		head = head->next;
+		free(current->str);
+		free(current);
 	}
-	free(head->str);
-	free(head);
 }
