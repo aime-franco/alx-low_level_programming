@@ -5,15 +5,17 @@
  * @head: contains first node
  * Return: sum of the data
  */
-int sum_listint(listint_t *head);
+int sum_listint(listint_t *head)
 {
-	listint_t *old = head;
-	unsigned int sum = 0;
-
-	while(old)
+	unsigned int sum;
+	
+	sum = 0;
+	if (head == NULL)
+		return (0);
+	while(head != NULL)
 	{
-		sum += old->n;
-		old = old->next;
+		sum += head->n;
+		head = head->next;
 	}
 	return (sum);
 }
