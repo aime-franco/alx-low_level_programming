@@ -8,6 +8,7 @@
 int sum_listint(listint_t *head)
 {
 	int sum;
+	listint_t *ol
 	
 	sum = 0;
 	if (head == NULL)
@@ -17,5 +18,6 @@ int sum_listint(listint_t *head)
 		sum =+ head->n;
 		head = head->next;
 	}
+	head = head->next;
 	return (sum);
 }
